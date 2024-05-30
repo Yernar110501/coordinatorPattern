@@ -9,10 +9,11 @@ import UIKit
 
 class SecondViewController: UIViewController {
 
+    weak var delegate: SecondViewControllerCoordinator?
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        view.backgroundColor = .purple
+        title = "Second"
     }
 
 }
